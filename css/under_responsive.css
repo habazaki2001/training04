@@ -1,0 +1,111 @@
+@media screen and (min-width: 751px) {
+.lightbox,
+.lightboxOverlay{min-width: var(--site_size);}
+
+
+/* HOVER */
+.under main #topic_path li a:hover{text-decoration:underline}
+.under main .bnn a:hover{opacity: 0.7;}
+.under main .link:hover{color: var(--scolor);}
+
+/* BUTTON OVN DETAIL */
+.under main .btn_list {display: flex;justify-content: center;position: relative;}
+.under main .btn_list .is_prev {position: absolute;top: 0;left: 150px;}
+.under main .btn_list .is_next {position: absolute;top: 0;right: 150px;}
+
+}
+
+@media screen and (max-width: 750px) {
+.under main #content{padding:0 0 80px}
+.under main section{padding:0 0 60px;}
+
+.under main .image_r,
+.under main .image_l{float:none;display:inline-block;width:100%;text-align:center;margin:0 auto 30px !important}
+
+/*==========================================================
+                 C U S T O M
+==========================================================*/
+/*  TOP INFO  */
+.under main #top_info{height:200px}
+.under main #topic_path{margin-bottom:15px}
+.under main #topic_path li,
+.under main #topic_path li a{font-size: 14px;}
+.under main #topic_path li:not(:last-child)::after{margin:0 5px 0 7px;background: url('../images/topic_path_ic_sp.png') center /cover no-repeat;width: 5px;height:11px;top: 1px;}
+/*============ HEAD TITLE ============ */
+.under main h2{font-size:26px;}
+.under main h3{font-size:24px}
+.under main h4{font-size:22px;}
+.under main h5{font-size:20px;}
+.under main h6{font-size:18px;}
+
+/*============ TABLE ============ */
+.under main table{margin-bottom:30px}
+.under main table td,
+.under main table th{padding:15px 10px}
+.under main table.tb_block tr{display:flex;flex-direction:column}
+.under main table.tb_block tr:not(:last-child) th{border-bottom:none}
+.under main table.tb_block td + td{border-top: none;}
+.under main table.tb_block th,
+.under main table.tb_block td{width: 100%;}
+
+/* TABLE SCROLL */
+.under main .tb_scroll{overflow:scroll;}
+.under main .tb_scroll:not(:last-child){margin-bottom: 30px;}
+.under main .tb_scroll table{width: 1000px;}
+.under main .tb_note{margin-bottom: 10px;color: #999;}
+
+/*============ LIST ============ */
+.under main .list01{}
+.under main .list01 li{}
+
+.under main .list02{}
+.under main .list02 li{}
+.under main .list02 li::before{}
+
+.under main .list_check{}
+.under main .list_check li{}
+
+/* LIST FAQ */
+.under main .list_faq dl{margin-bottom: 30px; padding: 15px}
+.under main .list_faq dt span{top:3px;}
+.under main .list_faq dt{font-size: 16px;min-height: 50px;padding-bottom: 3px;}
+
+/* List STEP */
+.under main .list_step dl{margin-bottom: 20px;padding-bottom: 40px}
+
+/*============ FRAME ============ */
+.under main .frame01{padding:30px 15px}
+
+.under main .frame02{padding:30px 15px}
+
+.under main .frame_pick{padding:30px 15px}
+
+
+/*============ ORTHER ============ */
+.under main .box_map{height:250px}
+
+
+/*============ KIJIKAKU ============ */
+.under main .kiji_detail_ct img{max-width: 100%;max-height: 300px;}
+
+
+}
+
+
+/* IPHONE 14 */
+@media screen and (max-width: 440px) {
+/*============ ORTHER ============ */
+
+
+/*============ KIJIKAKU ============ */
+.under .kiji_list dl{flex-wrap: wrap;}
+.under .kiji_list dd{width: 100%;margin-top: 10px;}
+.under .kiji_list dt img{top: inherit;}
+
+}
+
+
+/* IPHONE 6 */
+@media screen and (max-width: 360px) {
+
+}
